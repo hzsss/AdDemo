@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <MTGSDK/MTGSDK.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // 隐私政策弹框
+    [[MTGSDK sharedInstance] showConsentInfoTips:^(BOOL consentStatus, NSError * _Nullable error) {
+        if (consentStatus) {
+            NSLog(@"同意加载广告");
+            [[MTGSDK sharedInstance] setConsentStatus:YES];
+            [[MTGSDK sharedInstance] setAppID:@"112920" ApiKey:@"e54397cb00c31169362016b3c4338764"]; // ApiKey 没有找到
+            [[MTGSDK sharedInstance] preloadAppWallAdsWithUnitId:@"82573"]; // 预加载广告
+        }
+    }];
+
     return YES;
 }
 
