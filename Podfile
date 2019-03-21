@@ -11,3 +11,7 @@ end
 target 'VangleVideoDemo' do
   pod 'VungleSDK-iOS'
 end
+
+target 'YeahmobiDemo' do
+  pod 'ApplinsSDK'
+end

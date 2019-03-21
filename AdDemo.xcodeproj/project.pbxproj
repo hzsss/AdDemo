@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06B461642FE393F7B6E2C2E7 /* libPods-YeahmobiDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE03EF8CF76D99CE7F2F356 /* libPods-YeahmobiDemo.a */; };
 		3E137EA722437216003F2424 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E137EA622437216003F2424 /* AppDelegate.m */; };
 		3E137EAA22437216003F2424 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E137EA922437216003F2424 /* ViewController.m */; };
 		3E137EAD22437216003F2424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E137EAB22437216003F2424 /* Main.storyboard */; };
@@ -31,6 +32,14 @@
 		3E137EEA22437857003F2424 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E137EE922437857003F2424 /* Accelerate.framework */; };
 		3E137EEB2243785D003F2424 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E14BADC2243428E00F15B06 /* AVFoundation.framework */; };
 		3E137EED22437863003F2424 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E137EEC22437863003F2424 /* WebKit.framework */; };
+		3E137EF622438B2A003F2424 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E137EF522438B2A003F2424 /* AppDelegate.m */; };
+		3E137EF922438B2A003F2424 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E137EF822438B2A003F2424 /* ViewController.m */; };
+		3E137EFC22438B2A003F2424 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E137EFA22438B2A003F2424 /* Main.storyboard */; };
+		3E137EFE22438B35003F2424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E137EFD22438B35003F2424 /* Assets.xcassets */; };
+		3E137F0122438B35003F2424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E137EFF22438B35003F2424 /* LaunchScreen.storyboard */; };
+		3E137F0422438B35003F2424 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E137F0322438B35003F2424 /* main.m */; };
+		3E137F0E22438B35003F2424 /* YeahmobiDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E137F0D22438B35003F2424 /* YeahmobiDemoTests.m */; };
+		3E137F1922438B35003F2424 /* YeahmobiDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E137F1822438B35003F2424 /* YeahmobiDemoUITests.m */; };
 		3E14BA3822431FBC00F15B06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E14BA3722431FBC00F15B06 /* AppDelegate.m */; };
 		3E14BA3B22431FBC00F15B06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E14BA3A22431FBC00F15B06 /* ViewController.m */; };
 		3E14BA3E22431FBC00F15B06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E14BA3C22431FBC00F15B06 /* Main.storyboard */; };
@@ -87,6 +96,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 3E137EA222437216003F2424;
 			remoteInfo = MobvistaDemo;
+		};
+		3E137F0A22438B35003F2424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E14BA2B22431FBC00F15B06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E137EF122438B2A003F2424;
+			remoteInfo = YeahmobiDemo;
+		};
+		3E137F1522438B35003F2424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E14BA2B22431FBC00F15B06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E137EF122438B2A003F2424;
+			remoteInfo = YeahmobiDemo;
 		};
 		3E14BA4C22431FBF00F15B06 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -161,6 +184,22 @@
 		3E137EE722437851003F2424 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		3E137EE922437857003F2424 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		3E137EEC22437863003F2424 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3E137EF222438B2A003F2424 /* YeahmobiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YeahmobiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E137EF422438B2A003F2424 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E137EF522438B2A003F2424 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E137EF722438B2A003F2424 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E137EF822438B2A003F2424 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E137EFB22438B2A003F2424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E137EFD22438B35003F2424 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E137F0022438B35003F2424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E137F0222438B35003F2424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E137F0322438B35003F2424 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E137F0922438B35003F2424 /* YeahmobiDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeahmobiDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E137F0D22438B35003F2424 /* YeahmobiDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YeahmobiDemoTests.m; sourceTree = "<group>"; };
+		3E137F0F22438B35003F2424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E137F1422438B35003F2424 /* YeahmobiDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YeahmobiDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E137F1822438B35003F2424 /* YeahmobiDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YeahmobiDemoUITests.m; sourceTree = "<group>"; };
+		3E137F1A22438B35003F2424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E14BA3322431FBC00F15B06 /* AdDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E14BA3622431FBC00F15B06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E14BA3722431FBC00F15B06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -226,9 +265,12 @@
 		662CAB788C97C9DB9AFDCE81 /* libPods-AdNativeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdNativeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E00C9235CD00E4798A882C7 /* libPods-AdDemo-AdNativeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdDemo-AdNativeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE54DDFFA5E294E29607E6F /* Pods-AdDemo-AdNativeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdDemo-AdNativeDemo.debug.xcconfig"; path = "Target Support Files/Pods-AdDemo-AdNativeDemo/Pods-AdDemo-AdNativeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8FE03EF8CF76D99CE7F2F356 /* libPods-YeahmobiDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YeahmobiDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B8352883ACACCF1EB9B8E0D /* libPods-VangleVideoDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VangleVideoDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D52575BC1FFA5196AEEE96 /* Pods-AdNativeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdNativeDemo.release.xcconfig"; path = "Target Support Files/Pods-AdNativeDemo/Pods-AdNativeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EAD8986E4354EE9921ED806D /* Pods-YeahmobiDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeahmobiDemo.debug.xcconfig"; path = "Target Support Files/Pods-YeahmobiDemo/Pods-YeahmobiDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		EB563E6A632DC3903C3F26BD /* libPods-AdDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE95C91BB1E4B505CA75E9E7 /* Pods-YeahmobiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YeahmobiDemo.release.xcconfig"; path = "Target Support Files/Pods-YeahmobiDemo/Pods-YeahmobiDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F2DA1D62563616B0B87C0BAF /* Pods-VangleVideoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VangleVideoDemo.release.xcconfig"; path = "Target Support Files/Pods-VangleVideoDemo/Pods-VangleVideoDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -263,6 +305,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3E137EC222437224003F2424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E137EEF22438B2A003F2424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B461642FE393F7B6E2C2E7 /* libPods-YeahmobiDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E137F0622438B35003F2424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E137F1122438B35003F2424 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -362,6 +426,8 @@
 				D6D52575BC1FFA5196AEEE96 /* Pods-AdNativeDemo.release.xcconfig */,
 				124F7EBB2B2AD56B772A2104 /* Pods-VangleVideoDemo.debug.xcconfig */,
 				F2DA1D62563616B0B87C0BAF /* Pods-VangleVideoDemo.release.xcconfig */,
+				EAD8986E4354EE9921ED806D /* Pods-YeahmobiDemo.debug.xcconfig */,
+				EE95C91BB1E4B505CA75E9E7 /* Pods-YeahmobiDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -400,6 +466,40 @@
 			path = MobvistaDemoUITests;
 			sourceTree = "<group>";
 		};
+		3E137EF322438B2A003F2424 /* YeahmobiDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3E137EF422438B2A003F2424 /* AppDelegate.h */,
+				3E137EF522438B2A003F2424 /* AppDelegate.m */,
+				3E137EF722438B2A003F2424 /* ViewController.h */,
+				3E137EF822438B2A003F2424 /* ViewController.m */,
+				3E137EFA22438B2A003F2424 /* Main.storyboard */,
+				3E137EFD22438B35003F2424 /* Assets.xcassets */,
+				3E137EFF22438B35003F2424 /* LaunchScreen.storyboard */,
+				3E137F0222438B35003F2424 /* Info.plist */,
+				3E137F0322438B35003F2424 /* main.m */,
+			);
+			path = YeahmobiDemo;
+			sourceTree = "<group>";
+		};
+		3E137F0C22438B35003F2424 /* YeahmobiDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3E137F0D22438B35003F2424 /* YeahmobiDemoTests.m */,
+				3E137F0F22438B35003F2424 /* Info.plist */,
+			);
+			path = YeahmobiDemoTests;
+			sourceTree = "<group>";
+		};
+		3E137F1722438B35003F2424 /* YeahmobiDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3E137F1822438B35003F2424 /* YeahmobiDemoUITests.m */,
+				3E137F1A22438B35003F2424 /* Info.plist */,
+			);
+			path = YeahmobiDemoUITests;
+			sourceTree = "<group>";
+		};
 		3E14BA2A22431FBC00F15B06 = {
 			isa = PBXGroup;
 			children = (
@@ -415,6 +515,9 @@
 				3E137EA422437216003F2424 /* MobvistaDemo */,
 				3E137EBD22437224003F2424 /* MobvistaDemoTests */,
 				3E137EC822437224003F2424 /* MobvistaDemoUITests */,
+				3E137EF322438B2A003F2424 /* YeahmobiDemo */,
+				3E137F0C22438B35003F2424 /* YeahmobiDemoTests */,
+				3E137F1722438B35003F2424 /* YeahmobiDemoUITests */,
 				3E14BA3422431FBC00F15B06 /* Products */,
 				1E46BECDB812A0A7D4E6797D /* Pods */,
 				7412DB0EC545D9D13D2A2DF3 /* Frameworks */,
@@ -436,6 +539,9 @@
 				3E137EA322437216003F2424 /* MobvistaDemo.app */,
 				3E137EBA22437224003F2424 /* MobvistaDemoTests.xctest */,
 				3E137EC522437224003F2424 /* MobvistaDemoUITests.xctest */,
+				3E137EF222438B2A003F2424 /* YeahmobiDemo.app */,
+				3E137F0922438B35003F2424 /* YeahmobiDemoTests.xctest */,
+				3E137F1422438B35003F2424 /* YeahmobiDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -570,6 +676,7 @@
 				7E00C9235CD00E4798A882C7 /* libPods-AdDemo-AdNativeDemo.a */,
 				662CAB788C97C9DB9AFDCE81 /* libPods-AdNativeDemo.a */,
 				9B8352883ACACCF1EB9B8E0D /* libPods-VangleVideoDemo.a */,
+				8FE03EF8CF76D99CE7F2F356 /* libPods-YeahmobiDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -628,6 +735,60 @@
 			name = MobvistaDemoUITests;
 			productName = MobvistaDemoUITests;
 			productReference = 3E137EC522437224003F2424 /* MobvistaDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3E137EF122438B2A003F2424 /* YeahmobiDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E137F1B22438B35003F2424 /* Build configuration list for PBXNativeTarget "YeahmobiDemo" */;
+			buildPhases = (
+				BFBB3B0FB7CA5C9A6D70B04C /* [CP] Check Pods Manifest.lock */,
+				3E137EEE22438B2A003F2424 /* Sources */,
+				3E137EEF22438B2A003F2424 /* Frameworks */,
+				3E137EF022438B2A003F2424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YeahmobiDemo;
+			productName = YeahmobiDemo;
+			productReference = 3E137EF222438B2A003F2424 /* YeahmobiDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3E137F0822438B35003F2424 /* YeahmobiDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E137F1E22438B35003F2424 /* Build configuration list for PBXNativeTarget "YeahmobiDemoTests" */;
+			buildPhases = (
+				3E137F0522438B35003F2424 /* Sources */,
+				3E137F0622438B35003F2424 /* Frameworks */,
+				3E137F0722438B35003F2424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E137F0B22438B35003F2424 /* PBXTargetDependency */,
+			);
+			name = YeahmobiDemoTests;
+			productName = YeahmobiDemoTests;
+			productReference = 3E137F0922438B35003F2424 /* YeahmobiDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3E137F1322438B35003F2424 /* YeahmobiDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E137F2122438B35003F2424 /* Build configuration list for PBXNativeTarget "YeahmobiDemoUITests" */;
+			buildPhases = (
+				3E137F1022438B35003F2424 /* Sources */,
+				3E137F1122438B35003F2424 /* Frameworks */,
+				3E137F1222438B35003F2424 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E137F1622438B35003F2424 /* PBXTargetDependency */,
+			);
+			name = YeahmobiDemoUITests;
+			productName = YeahmobiDemoUITests;
+			productReference = 3E137F1422438B35003F2424 /* YeahmobiDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		3E14BA3222431FBC00F15B06 /* AdDemo */ = {
@@ -812,6 +973,17 @@
 						CreatedOnToolsVersion = 10.2;
 						TestTargetID = 3E137EA222437216003F2424;
 					};
+					3E137EF122438B2A003F2424 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					3E137F0822438B35003F2424 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3E137EF122438B2A003F2424;
+					};
+					3E137F1322438B35003F2424 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3E137EF122438B2A003F2424;
+					};
 					3E14BA3222431FBC00F15B06 = {
 						CreatedOnToolsVersion = 10.2;
 					};
@@ -872,6 +1044,9 @@
 				3E137EA222437216003F2424 /* MobvistaDemo */,
 				3E137EB922437224003F2424 /* MobvistaDemoTests */,
 				3E137EC422437224003F2424 /* MobvistaDemoUITests */,
+				3E137EF122438B2A003F2424 /* YeahmobiDemo */,
+				3E137F0822438B35003F2424 /* YeahmobiDemoTests */,
+				3E137F1322438B35003F2424 /* YeahmobiDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -895,6 +1070,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3E137EC322437224003F2424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E137EF022438B2A003F2424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E137F0122438B35003F2424 /* LaunchScreen.storyboard in Resources */,
+				3E137EFE22438B35003F2424 /* Assets.xcassets in Resources */,
+				3E137EFC22438B2A003F2424 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E137F0722438B35003F2424 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E137F1222438B35003F2424 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1021,6 +1220,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BFBB3B0FB7CA5C9A6D70B04C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YeahmobiDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CAA122253213B3AAD0D2194A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1069,6 +1290,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E137ECA22437224003F2424 /* MobvistaDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E137EEE22438B2A003F2424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E137EF922438B2A003F2424 /* ViewController.m in Sources */,
+				3E137F0422438B35003F2424 /* main.m in Sources */,
+				3E137EF622438B2A003F2424 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E137F0522438B35003F2424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E137F0E22438B35003F2424 /* YeahmobiDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E137F1022438B35003F2424 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E137F1922438B35003F2424 /* YeahmobiDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1163,6 +1410,16 @@
 			target = 3E137EA222437216003F2424 /* MobvistaDemo */;
 			targetProxy = 3E137EC622437224003F2424 /* PBXContainerItemProxy */;
 		};
+		3E137F0B22438B35003F2424 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E137EF122438B2A003F2424 /* YeahmobiDemo */;
+			targetProxy = 3E137F0A22438B35003F2424 /* PBXContainerItemProxy */;
+		};
+		3E137F1622438B35003F2424 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E137EF122438B2A003F2424 /* YeahmobiDemo */;
+			targetProxy = 3E137F1522438B35003F2424 /* PBXContainerItemProxy */;
+		};
 		3E14BA4D22431FBF00F15B06 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3E14BA3222431FBC00F15B06 /* AdDemo */;
@@ -1208,6 +1465,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				3E137EB122437224003F2424 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3E137EFA22438B2A003F2424 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E137EFB22438B2A003F2424 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E137EFF22438B35003F2424 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E137F0022438B35003F2424 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1378,6 +1651,118 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = MobvistaDemo;
+			};
+			name = Release;
+		};
+		3E137F1C22438B35003F2424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAD8986E4354EE9921ED806D /* Pods-YeahmobiDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7J9AEG93Q;
+				INFOPLIST_FILE = YeahmobiDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhihuDailyhuangzishan.YeahmobiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E137F1D22438B35003F2424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE95C91BB1E4B505CA75E9E7 /* Pods-YeahmobiDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7J9AEG93Q;
+				INFOPLIST_FILE = YeahmobiDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhihuDailyhuangzishan.YeahmobiDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3E137F1F22438B35003F2424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7J9AEG93Q;
+				INFOPLIST_FILE = YeahmobiDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhihuDailyhuangzishan.YeahmobiDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YeahmobiDemo.app/YeahmobiDemo";
+			};
+			name = Debug;
+		};
+		3E137F2022438B35003F2424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7J9AEG93Q;
+				INFOPLIST_FILE = YeahmobiDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhihuDailyhuangzishan.YeahmobiDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YeahmobiDemo.app/YeahmobiDemo";
+			};
+			name = Release;
+		};
+		3E137F2222438B35003F2424 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7J9AEG93Q;
+				INFOPLIST_FILE = YeahmobiDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = zhihuDailyhuangzishan.YeahmobiDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YeahmobiDemo;
+			};
+			name = Debug;
+		};
+		3E137F2322438B35003F2424 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7J9AEG93Q;
+				INFOPLIST_FILE = YeahmobiDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = zhihuDailyhuangzishan.YeahmobiDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YeahmobiDemo;
 			};
 			name = Release;
 		};
@@ -1857,6 +2242,33 @@
 			buildConfigurations = (
 				3E137ED022437224003F2424 /* Debug */,
 				3E137ED122437224003F2424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E137F1B22438B35003F2424 /* Build configuration list for PBXNativeTarget "YeahmobiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E137F1C22438B35003F2424 /* Debug */,
+				3E137F1D22438B35003F2424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E137F1E22438B35003F2424 /* Build configuration list for PBXNativeTarget "YeahmobiDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E137F1F22438B35003F2424 /* Debug */,
+				3E137F2022438B35003F2424 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E137F2122438B35003F2424 /* Build configuration list for PBXNativeTarget "YeahmobiDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E137F2222438B35003F2424 /* Debug */,
+				3E137F2322438B35003F2424 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

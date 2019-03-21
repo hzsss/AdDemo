@@ -1,4 +1,5 @@
 PODS:
+  - ApplinsSDK (4.0.8)
   - Google-Mobile-Ads-SDK (7.42.0):
     - GoogleAppMeasurement (~> 5.7)
   - GoogleAppMeasurement (5.8.0):
@@ -31,11 +32,13 @@ PODS:
   - VungleSDK-iOS (6.3.2)
 
 DEPENDENCIES:
+  - ApplinsSDK
   - Google-Mobile-Ads-SDK
   - VungleSDK-iOS
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - ApplinsSDK
     - Google-Mobile-Ads-SDK
     - GoogleAppMeasurement
     - GoogleUtilities
@@ -43,12 +46,13 @@ SPEC REPOS:
     - VungleSDK-iOS
 
 SPEC CHECKSUMS:
+  ApplinsSDK: 8378b409d835fdfd86d78c78d54e1cbbcdf65f13
   Google-Mobile-Ads-SDK: c7bec408202526ec4e9ccd025c00f9f30e9f8807
   GoogleAppMeasurement: 1624046ab1bcc5e170061a56ef5679000b079c8e
   GoogleUtilities: 6481e6318c5fcabaaa8513ef8120f329055d7c10
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   VungleSDK-iOS: 69a7f407b60281d2954ffc5eeeac349fbfed51d6
 
-PODFILE CHECKSUM: 42c11c81439a91f7c9989834a6fd58d730bff413
+PODFILE CHECKSUM: c925baf07b5c31704cf1ec1af4e199ef57b9c774
 
 COCOAPODS: 1.6.1
