@@ -76,6 +76,15 @@
 		3E14BAE9224342C000F15B06 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E14BAE8224342C000F15B06 /* QuartzCore.framework */; };
 		3E14BAEB224342C700F15B06 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E14BAEA224342C700F15B06 /* StoreKit.framework */; };
 		3E14BAED224342CE00F15B06 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E14BAEC224342CE00F15B06 /* SystemConfiguration.framework */; };
+		3EF2C6FA22446F90003573D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2C6F922446F90003573D4 /* AppDelegate.m */; };
+		3EF2C6FD22446F90003573D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2C6FC22446F90003573D4 /* ViewController.m */; };
+		3EF2C70022446F90003573D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF2C6FE22446F90003573D4 /* Main.storyboard */; };
+		3EF2C70222446F9A003573D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EF2C70122446F9A003573D4 /* Assets.xcassets */; };
+		3EF2C70522446F9A003573D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EF2C70322446F9A003573D4 /* LaunchScreen.storyboard */; };
+		3EF2C70822446F9A003573D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2C70722446F9A003573D4 /* main.m */; };
+		3EF2C71222446F9A003573D4 /* AdTimingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2C71122446F9A003573D4 /* AdTimingDemoTests.m */; };
+		3EF2C71D22446F9A003573D4 /* AdTimingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF2C71C22446F9A003573D4 /* AdTimingDemoUITests.m */; };
+		3EF2C72922447056003573D4 /* AdTiming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF2C72822447056003573D4 /* AdTiming.framework */; };
 		4D0375C3C9412FD52031B4F2 /* libPods-VangleVideoDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8352883ACACCF1EB9B8E0D /* libPods-VangleVideoDemo.a */; };
 		5539F02505E3EBBDAF80CD96 /* libPods-AdDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB563E6A632DC3903C3F26BD /* libPods-AdDemo.a */; };
 		771C53F686E9DC5EC9607CE9 /* libPods-AdDemo-AdNativeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E00C9235CD00E4798A882C7 /* libPods-AdDemo-AdNativeDemo.a */; };
@@ -152,6 +161,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 3E14BAA52243415900F15B06;
 			remoteInfo = VangleVideoDemo;
+		};
+		3EF2C70E22446F9A003573D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E14BA2B22431FBC00F15B06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF2C6F522446F90003573D4;
+			remoteInfo = AdTimingDemo;
+		};
+		3EF2C71922446F9A003573D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E14BA2B22431FBC00F15B06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EF2C6F522446F90003573D4;
+			remoteInfo = AdTimingDemo;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -260,6 +283,23 @@
 		3E14BAE8224342C000F15B06 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		3E14BAEA224342C700F15B06 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		3E14BAEC224342CE00F15B06 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3EF2C6F622446F90003573D4 /* AdTimingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdTimingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF2C6F822446F90003573D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3EF2C6F922446F90003573D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3EF2C6FB22446F90003573D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3EF2C6FC22446F90003573D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3EF2C6FF22446F90003573D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EF2C70122446F9A003573D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EF2C70422446F9A003573D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EF2C70622446F9A003573D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF2C70722446F9A003573D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EF2C70D22446F9A003573D4 /* AdTimingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdTimingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF2C71122446F9A003573D4 /* AdTimingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdTimingDemoTests.m; sourceTree = "<group>"; };
+		3EF2C71322446F9A003573D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF2C71822446F9A003573D4 /* AdTimingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdTimingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF2C71C22446F9A003573D4 /* AdTimingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdTimingDemoUITests.m; sourceTree = "<group>"; };
+		3EF2C71E22446F9A003573D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EF2C72822447056003573D4 /* AdTiming.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdTiming.framework; sourceTree = "<group>"; };
 		505C820A366ED2919D938E19 /* Pods-AdDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdDemo.release.xcconfig"; path = "Target Support Files/Pods-AdDemo/Pods-AdDemo.release.xcconfig"; sourceTree = "<group>"; };
 		5F0D5854C627D9410BCDDFB1 /* Pods-AdNativeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdNativeDemo.debug.xcconfig"; path = "Target Support Files/Pods-AdNativeDemo/Pods-AdNativeDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		662CAB788C97C9DB9AFDCE81 /* libPods-AdNativeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdNativeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -412,6 +452,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3EF2C6F322446F90003573D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF2C72922447056003573D4 /* AdTiming.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF2C70A22446F9A003573D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF2C71522446F9A003573D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -518,6 +580,9 @@
 				3E137EF322438B2A003F2424 /* YeahmobiDemo */,
 				3E137F0C22438B35003F2424 /* YeahmobiDemoTests */,
 				3E137F1722438B35003F2424 /* YeahmobiDemoUITests */,
+				3EF2C6F722446F90003573D4 /* AdTimingDemo */,
+				3EF2C71022446F9A003573D4 /* AdTimingDemoTests */,
+				3EF2C71B22446F9A003573D4 /* AdTimingDemoUITests */,
 				3E14BA3422431FBC00F15B06 /* Products */,
 				1E46BECDB812A0A7D4E6797D /* Pods */,
 				7412DB0EC545D9D13D2A2DF3 /* Frameworks */,
@@ -542,6 +607,9 @@
 				3E137EF222438B2A003F2424 /* YeahmobiDemo.app */,
 				3E137F0922438B35003F2424 /* YeahmobiDemoTests.xctest */,
 				3E137F1422438B35003F2424 /* YeahmobiDemoUITests.xctest */,
+				3EF2C6F622446F90003573D4 /* AdTimingDemo.app */,
+				3EF2C70D22446F9A003573D4 /* AdTimingDemoTests.xctest */,
+				3EF2C71822446F9A003573D4 /* AdTimingDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -649,9 +717,44 @@
 			path = VangleVideoDemoUITests;
 			sourceTree = "<group>";
 		};
+		3EF2C6F722446F90003573D4 /* AdTimingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3EF2C6F822446F90003573D4 /* AppDelegate.h */,
+				3EF2C6F922446F90003573D4 /* AppDelegate.m */,
+				3EF2C6FB22446F90003573D4 /* ViewController.h */,
+				3EF2C6FC22446F90003573D4 /* ViewController.m */,
+				3EF2C6FE22446F90003573D4 /* Main.storyboard */,
+				3EF2C70122446F9A003573D4 /* Assets.xcassets */,
+				3EF2C70322446F9A003573D4 /* LaunchScreen.storyboard */,
+				3EF2C70622446F9A003573D4 /* Info.plist */,
+				3EF2C70722446F9A003573D4 /* main.m */,
+			);
+			path = AdTimingDemo;
+			sourceTree = "<group>";
+		};
+		3EF2C71022446F9A003573D4 /* AdTimingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EF2C71122446F9A003573D4 /* AdTimingDemoTests.m */,
+				3EF2C71322446F9A003573D4 /* Info.plist */,
+			);
+			path = AdTimingDemoTests;
+			sourceTree = "<group>";
+		};
+		3EF2C71B22446F9A003573D4 /* AdTimingDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3EF2C71C22446F9A003573D4 /* AdTimingDemoUITests.m */,
+				3EF2C71E22446F9A003573D4 /* Info.plist */,
+			);
+			path = AdTimingDemoUITests;
+			sourceTree = "<group>";
+		};
 		7412DB0EC545D9D13D2A2DF3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3EF2C72822447056003573D4 /* AdTiming.framework */,
 				3E137EEC22437863003F2424 /* WebKit.framework */,
 				3E137EE922437857003F2424 /* Accelerate.framework */,
 				3E137EE722437851003F2424 /* MobileCoreServices.framework */,
@@ -953,6 +1056,59 @@
 			productReference = 3E14BAC82243416500F15B06 /* VangleVideoDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		3EF2C6F522446F90003573D4 /* AdTimingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF2C72522446F9A003573D4 /* Build configuration list for PBXNativeTarget "AdTimingDemo" */;
+			buildPhases = (
+				3EF2C6F222446F90003573D4 /* Sources */,
+				3EF2C6F322446F90003573D4 /* Frameworks */,
+				3EF2C6F422446F90003573D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdTimingDemo;
+			productName = AdTimingDemo;
+			productReference = 3EF2C6F622446F90003573D4 /* AdTimingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EF2C70C22446F9A003573D4 /* AdTimingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF2C72622446F9A003573D4 /* Build configuration list for PBXNativeTarget "AdTimingDemoTests" */;
+			buildPhases = (
+				3EF2C70922446F9A003573D4 /* Sources */,
+				3EF2C70A22446F9A003573D4 /* Frameworks */,
+				3EF2C70B22446F9A003573D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF2C70F22446F9A003573D4 /* PBXTargetDependency */,
+			);
+			name = AdTimingDemoTests;
+			productName = AdTimingDemoTests;
+			productReference = 3EF2C70D22446F9A003573D4 /* AdTimingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3EF2C71722446F9A003573D4 /* AdTimingDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EF2C72722446F9A003573D4 /* Build configuration list for PBXNativeTarget "AdTimingDemoUITests" */;
+			buildPhases = (
+				3EF2C71422446F9A003573D4 /* Sources */,
+				3EF2C71522446F9A003573D4 /* Frameworks */,
+				3EF2C71622446F9A003573D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EF2C71A22446F9A003573D4 /* PBXTargetDependency */,
+			);
+			name = AdTimingDemoUITests;
+			productName = AdTimingDemoUITests;
+			productReference = 3EF2C71822446F9A003573D4 /* AdTimingDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1017,6 +1173,17 @@
 						CreatedOnToolsVersion = 10.2;
 						TestTargetID = 3E14BAA52243415900F15B06;
 					};
+					3EF2C6F522446F90003573D4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3EF2C70C22446F9A003573D4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3EF2C6F522446F90003573D4;
+					};
+					3EF2C71722446F9A003573D4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3EF2C6F522446F90003573D4;
+					};
 				};
 			};
 			buildConfigurationList = 3E14BA2E22431FBC00F15B06 /* Build configuration list for PBXProject "AdDemo" */;
@@ -1047,6 +1214,9 @@
 				3E137EF122438B2A003F2424 /* YeahmobiDemo */,
 				3E137F0822438B35003F2424 /* YeahmobiDemoTests */,
 				3E137F1322438B35003F2424 /* YeahmobiDemoUITests */,
+				3EF2C6F522446F90003573D4 /* AdTimingDemo */,
+				3EF2C70C22446F9A003573D4 /* AdTimingDemoTests */,
+				3EF2C71722446F9A003573D4 /* AdTimingDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1167,6 +1337,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3E14BAC62243416500F15B06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF2C6F422446F90003573D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF2C70522446F9A003573D4 /* LaunchScreen.storyboard in Resources */,
+				3EF2C70222446F9A003573D4 /* Assets.xcassets in Resources */,
+				3EF2C70022446F90003573D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF2C70B22446F9A003573D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF2C71622446F9A003573D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1397,6 +1591,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3EF2C6F222446F90003573D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF2C6FD22446F90003573D4 /* ViewController.m in Sources */,
+				3EF2C70822446F9A003573D4 /* main.m in Sources */,
+				3EF2C6FA22446F90003573D4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF2C70922446F9A003573D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF2C71222446F9A003573D4 /* AdTimingDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EF2C71422446F9A003573D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF2C71D22446F9A003573D4 /* AdTimingDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1449,6 +1669,16 @@
 			isa = PBXTargetDependency;
 			target = 3E14BAA52243415900F15B06 /* VangleVideoDemo */;
 			targetProxy = 3E14BAC92243416500F15B06 /* PBXContainerItemProxy */;
+		};
+		3EF2C70F22446F9A003573D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF2C6F522446F90003573D4 /* AdTimingDemo */;
+			targetProxy = 3EF2C70E22446F9A003573D4 /* PBXContainerItemProxy */;
+		};
+		3EF2C71A22446F9A003573D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EF2C6F522446F90003573D4 /* AdTimingDemo */;
+			targetProxy = 3EF2C71922446F9A003573D4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1529,6 +1759,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				3E14BAB42243416500F15B06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3EF2C6FE22446F90003573D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF2C6FF22446F90003573D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EF2C70322446F9A003573D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EF2C70422446F9A003573D4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -2216,6 +2462,130 @@
 			};
 			name = Release;
 		};
+		3EF2C71F22446F9A003573D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7J9AEG93Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AdTimingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = zhihuDailyhuangzishan.AdTimingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EF2C72022446F9A003573D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7J9AEG93Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AdTimingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = zhihuDailyhuangzishan.AdTimingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3EF2C72122446F9A003573D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7J9AEG93Q;
+				INFOPLIST_FILE = AdTimingDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhihuDailyhuangzishan.AdTimingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdTimingDemo.app/AdTimingDemo";
+			};
+			name = Debug;
+		};
+		3EF2C72222446F9A003573D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7J9AEG93Q;
+				INFOPLIST_FILE = AdTimingDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhihuDailyhuangzishan.AdTimingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdTimingDemo.app/AdTimingDemo";
+			};
+			name = Release;
+		};
+		3EF2C72322446F9A003573D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7J9AEG93Q;
+				INFOPLIST_FILE = AdTimingDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhihuDailyhuangzishan.AdTimingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdTimingDemo;
+			};
+			name = Debug;
+		};
+		3EF2C72422446F9A003573D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V7J9AEG93Q;
+				INFOPLIST_FILE = AdTimingDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhihuDailyhuangzishan.AdTimingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdTimingDemo;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2359,6 +2729,33 @@
 			buildConfigurations = (
 				3E14BAD62243416500F15B06 /* Debug */,
 				3E14BAD72243416500F15B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF2C72522446F9A003573D4 /* Build configuration list for PBXNativeTarget "AdTimingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF2C71F22446F9A003573D4 /* Debug */,
+				3EF2C72022446F9A003573D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF2C72622446F9A003573D4 /* Build configuration list for PBXNativeTarget "AdTimingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF2C72122446F9A003573D4 /* Debug */,
+				3EF2C72222446F9A003573D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EF2C72722446F9A003573D4 /* Build configuration list for PBXNativeTarget "AdTimingDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EF2C72322446F9A003573D4 /* Debug */,
+				3EF2C72422446F9A003573D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
